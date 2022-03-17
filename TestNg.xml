@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Resolver Demo Test Suite">
+
+	<listeners>
+		<listener class-name="resolver.listener.extendReportListener" />
+	</listeners>
+
+
+	<test name="Walmart Testcases">
+		<classes>
+			<class name="resolver.testcases.qe_IndexTestCase"></class>
+
+		</classes>
+	</test>
+
+</suite>
+	
